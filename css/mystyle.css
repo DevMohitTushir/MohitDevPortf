@@ -15,8 +15,7 @@ html {
     position: relative;
     background-attachment: fixed;
     background-repeat: no-repeat;
-
-
+    z-index: -2;
 }
 
 nav {
@@ -294,6 +293,7 @@ nav .menu-icons {
 
 .myskills {
     overflow: hidden;
+    /* z-index: 999; */
     white-space: nowrap;
 
 }
