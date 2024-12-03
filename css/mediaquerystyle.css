@@ -1,9 +1,10 @@
 @media (max-width:1080px) {
-    *{
+    * {
         /* font-size: 14px; */
         margin: 0;
         padding: 0;
     }
+
     /* nav {
         position: relative;
      
@@ -60,9 +61,11 @@
         color: #e24;
         overflow-x: hidden;
     }
+
     nav {
         backdrop-filter: blur(10px);
     }
+
     nav .ulmenu {
         position: fixed;
         width: 100%;
@@ -79,10 +82,10 @@
         opacity: 0;
         transition: .5s all linear;
         z-index: 999;
-       
+
     }
 
-    .ulmenu ul{
+    .ulmenu ul {
         flex-direction: column;
     }
 
@@ -104,7 +107,7 @@
     }
 
     /* body mediaQuery now  */
-    .firstsection{
+    .firstsection {
         padding: 0 3%;
         min-height: 80vh;
         width: 100%;
@@ -113,65 +116,67 @@
         flex-direction: column-reverse;
 
     }
-    #textDetails{
-    
+
+    #textDetails {
+
         width: 90%;
-        height: 60%;   
-     
-        
-         
+        height: 60%;
+
+
+
         .text p {
             font-size: 16px;
         }
-    
+
         .greenText {
             color: #1cbe59;
         }
-    
+
         .purpleText {
             color: #8067f0;
         }
-    
+
         .orangeText {
             color: #f75023;
             font-size: 18px;
         }
-    
-    
+
+
         .yellowText {
             color: #f0c45c;
         }
-    
+
         .orangeBackground {
             background-color: #fedfd7;
         }
-    
+
         .greenBackground {
             background-color: #ddf5e6;
         }
-    
+
         .purpleBackground {
             background-color: #ece8fd;
         }
-    
+
         .name {
             font-size: 20px;
         }
-    
+
         .job {
             font-size: 15px;
         }
-    
 
-        
+
+
     }
-    #avatar{
+
+    #avatar {
         width: 90%;
         margin-top: 90px;
         margin-bottom: 0%;
     }
 
-    .myForm{
+    .myForm {
         /* margin-top: 20px; */
         width: 100%;
         height: 100%;
@@ -180,6 +185,7 @@
         /* display: flex; */
         /* flex-direction: row-reverse; */
     }
+
     .formcontainer {
         display: flex;
         flex-direction: column;
@@ -191,12 +197,16 @@
         height: 40vh;
         border: 0;
     }
-   
-    .portfiliocontent{
+    .portfoliotitle{
+        margin-top: 20px;
+    }
+
+    .portfiliocontent {
         /* min-height: 100vh; */
-      
-            row-gap: 2rem;
-            grid-template-columns:repeat(1, 1fr);
-        
-    } 
+
+        row-gap: 2rem;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+  
 }

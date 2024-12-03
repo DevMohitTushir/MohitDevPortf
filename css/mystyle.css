@@ -340,7 +340,8 @@ nav .menu-icons {
 }
 
 .contactForm {
-    height: 90vh;
+    height: 100vh;
+    margin-top: 20px;
 }
 
 .contactForm {
@@ -449,7 +450,7 @@ footer {
     /* padding: 0 15%; */
     justify-content: center;
     margin-top: 40px;
-    background-color: #ddf5e6;
+    /* background-color: #ddf5e6; */
 }
 
 .portfoliotitle h1{
