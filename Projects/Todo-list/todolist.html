@@ -27,7 +27,7 @@
             </div>
 
             <div class="removeall">
-                <button type="button" class="btn" id="removeall">Remove All</button>
+                <button type="button" class="btn" id="clearall">Remove All</button>
 
             </div>
 
@@ -37,7 +37,7 @@
             let textInput = document.getElementById("inputText");
             let addButton = document.querySelector(".btn");
             let listItem = document.querySelector(".list-item");
-            let removeButton = document.querySelector("#removeall");
+            let clear = document.getElementById("clearall");
 
             function addDatatoLocalStorage() {
                 localStorage.setItem('userData', listItem.innerHTML);
@@ -57,9 +57,27 @@
                     li.appendChild(span);
 
                     addDatatoLocalStorage();
+
                 }
-                textInput.value = ""
+
+
+                textInput.value = "";
+
+
             }
+            
+            //
+
+            clear.addEventListener("click", () => {
+                listItem.innerHTML = "";
+                localStorage.removeItem('userData');
+               
+            })
+
+
+
+
+
 
             function getItem() {
                 listItem.innerHTML = localStorage.getItem('userData');
@@ -79,12 +97,6 @@
                 }
             })
 
-            removeButton.addEventListener("click", (e) => {
-               
-                if (e.target.tagName === 'LI') {
-                    e.target.listItem.remove();
-                }
-            })
 
         </script>
 </body>
